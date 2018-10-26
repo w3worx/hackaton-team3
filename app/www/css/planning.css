@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(138, 11, 255, 0.24);
+    background-color: rgba(0, 0, 0, 0.1);
 
 }
 table {
@@ -22,7 +22,7 @@ hr{
     margin-right: auto;
 
     width: 90%;
-    height: 160px;
+    height: 190px;
     border: black 1px solid;
     border-radius: 4%;
     background-color: white;
@@ -74,10 +74,9 @@ hr{
 }
 
 .Header img{
-    height: 20px;
-    display: inline-block;
+    height: 50px;
     padding: 10px;
-    float: left
+    float: left;
 
 }
 .Header h2{
