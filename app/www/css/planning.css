@@ -49,5 +49,8 @@ hr{
     margin-top: 13px;
 }
 .text{
-    Margin-top:10px
+    text-align: center;
+}
+.text p{
+    font-size: 20px;
 }
