@@ -74,13 +74,15 @@ hr{
 }
 
 .Header img{
-    height: 20px;display: inline-block; padding: 10px; float: left
+    height: 20px;
+    display: inline-block;
+    padding: 10px;
+    float: left
+
 }
 .Header h2{
     margin: 0;
     padding-top: 4px;
     padding-left: 50px;
     float: left
-
-
 }
