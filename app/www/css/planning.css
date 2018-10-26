@@ -1,6 +1,11 @@
+body{
+    background-color: rgba(138, 11, 255, 0.24);
+
+}
 table {
-     border-collapse: collapse;
-     width: 100%;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
  }
 
 th, td {
@@ -12,11 +17,15 @@ hr{
 }
 
 .plan{
-    margin: auto;
-    width: 80%;
-    height: 200px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 90%;
+    height: 160px;
     border: black 1px solid;
-    border-radius: 2%;
+    border-radius: 4%;
+    background-color: white;
 }
 .time{
     width: 49%;
@@ -49,8 +58,29 @@ hr{
     margin-top: 13px;
 }
 .text{
+    margin-top: 20%;
     text-align: center;
 }
 .text p{
     font-size: 20px;
+}
+
+.Header{
+    height: 50%;
+    width: 100vw;
+    background-color: #ffffff;
+    margin: 0;
+    display: inline-block;
+}
+
+.Header img{
+    height: 20px;display: inline-block; padding: 10px; float: left
+}
+.Header h2{
+    margin: 0;
+    padding-top: 4px;
+    padding-left: 50px;
+    float: left
+
+
 }

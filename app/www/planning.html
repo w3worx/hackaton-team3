@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/planning.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body style="margin: 0">
 <script>
     function time() {
         var minutesLabel = document.getElementById("minutes");
@@ -34,10 +34,13 @@
     }
 
 </script>
-<div class="Header">
 
+<div class="Header" style="margin-bottom: -4px">
+    <img src="img/hambuger.png" alt="hambuger" style="">
+    <h2 style="">Planning</h2>
 </div>
-<div style="overflow-x:auto;">
+
+<div style="overflow-x:auto; margin-bottom: -4px;">
     <table>
         <tr>
             <th>Ma</th>
@@ -55,7 +58,6 @@
         </tr>
     </table>
 </div>
-<hr>
     <div class="plan">
         <div class="time">
             <p>8:00 - 17:00</p>
