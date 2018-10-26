@@ -35,6 +35,5 @@ var app = {
 app.initialize();
 
 document.getElementById('searchBeaconsButton').addEventListener('click', function() {
-    console.log('Button click');
     searchBeaconForPlanning();
 });
